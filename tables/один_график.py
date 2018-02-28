@@ -20,6 +20,8 @@ def processing(name,saveto, om):
 	e0=np.min(uc)#*0.992
 	Q=np.max(uc)/e0
 	nu0=nu[np.argmax(ur)]
+	nu0c=nu[np.argmax(uc)]
+	nu0l=nu[np.argmax(ul)]
 	w0=nu0*2*pi
 	C=6.8e-09
 	R=1/C/w0/Q
@@ -32,11 +34,16 @@ def processing(name,saveto, om):
 	print('Q сравнением (по нему график)=',Q)
 	if Rp==2400:
 		print('Q методом ширины (2400)=',w0/abs(12379-16181))
+		print('DeltaOmega=',abs(12379-16181))
 	else:
 		print('Q методом ширины (100)=',w0/abs(14211-14919))
+		print('DeltaOmega=',abs(14211-14919))
+
 	print('Q расчетом=',1/Rp*sqrt(Lp/Cp))
 
 	print('nu0=',nu0)
+	print('nu0с=',nu0c)
+	print('nu0l=',nu0l)
 	print('w0=',w0)
 	print('e0=',e0,'<=из эксперимента')
 	print('C=',C,'<=считаем известным')
