@@ -150,15 +150,15 @@ $\omega_s=\sqrt{\omega_0^2 - \delta^2}=\omega_0$.
 Резонансная кривая для индуктивности
 \end{center}
 \begin{equation}
-	U_L=\frac{\omega L\epsilon_0}
+	U_L=\frac{\omega L\varepsilon_0}
 			{\sqrt{R^2+(\omega L-\frac{1}{\omega C})^2}}=
-		\frac{\omega \epsilon_0}
+		\frac{\omega \varepsilon_0}
 			{\sqrt{(\frac{R}{L})^2+(\omega -\frac{1}{\omega LC})^2}}=
-		\frac{\omega \epsilon_0}
+		\frac{\omega \varepsilon_0}
 			{\sqrt{(\frac{\omega_0}{Q})^2+(\omega -\frac{\omega_0^2}{\omega})^2}}
 		\end{equation}
 \begin{equation}
-	U_L=\frac{\omega^2 \epsilon_0}{\sqrt{\omega^2(\frac{\omega_0}{Q})^2+(\omega^2 -\omega_0:2)^2}}			
+	U_L=\frac{\omega^2 \varepsilon_0}{\sqrt{\omega^2(\frac{\omega_0}{Q})^2+(\omega^2 -\omega_0^2)^2}}			
 \end{equation}			
 
 
@@ -167,17 +167,37 @@ $\omega_s=\sqrt{\omega_0^2 - \delta^2}=\omega_0$.
 \end{center}
 
 \begin{equation}
-	U_C=\frac{\epsilon_0}{\sqrt{R^2+(\omega L-\frac{1}{\omega C})^2}}=
-		=\frac{\epsilon_0\omega_0 Q}
+	U_C=\frac{\varepsilon_0}{\sqrt{R^2+(\omega L-\frac{1}{\omega C})^2}}=
+		=\frac{\varepsilon_0\omega_0 Q}
 			{\omega \sqrt{1+\frac{\omega^2}{\omega_0^2}(\omega-\frac{\omega_0^2}{\omega})^2}}
-		=\frac{\epsilon_0\omega_0^2}{\sqrt{\frac{\omega_0^2\omega^2}{Q^2}+(\omega^2-\omega_0^2)^2}}
+		=\frac{\varepsilon_0\omega_0^2}{\sqrt{\frac{\omega_0^2\omega^2}{Q^2}+(\omega^2-\omega_0^2)^2}}
 \end{equation}
 
 \begin{center}
 Резонансная кривая для резистора
 \end{center}
 \begin{equation}
-	U_R=\frac{\epsilon_0\omega\omega_0}{\sqrt{\omega^2\omega_0^2+Q^2(\omega^2-\omega_0^2)^2}}
+	U_R=\frac{\varepsilon_0\omega\omega_0}{\sqrt{\omega^2\omega_0^2+Q^2(\omega^2-\omega_0^2)^2}}
+\end{equation}
+Отсюда путем дифференцирования найдены максимумы резонансных  кривых и резонансные частоты:
+\begin{equation}
+	U_L^*=\frac{\varepsilon_0}{\sqrt{\frac{1}{Q^2}-\frac{1}{4Q^2}}}
+\end{equation}
+\begin{equation}
+	\omega^*_L=\frac{\omega_0}{\sqrt{1-\frac{1}{2Q^2}}}
+\end{equation}
+
+\begin{equation}
+	U_C^*=\frac{\varepsilon_0 Q}{\sqrt{1-\frac{1}{4Q^2}}}
+\end{equation}
+\begin{equation}
+	\omega^*_C=\frac{\omega_0}{\sqrt{2}Q}\sqrt{2Q^2-1}
+\end{equation}
+\begin{equation}
+		U_R^*=\varepsilon_0
+\end{equation}	
+\begin{equation}
+		\omega_R^*=\omega_0
 \end{equation}
 \newpage
 
@@ -270,6 +290,7 @@ $\omega_s=\sqrt{\omega_0^2 - \delta^2}=\omega_0$.
 	Q=\frac{\omega_0}{\Delta\omega}=3.85
 \end{equation}
 \subsection{Исследование процессов установления вынужденных колебаний}
+
 
 \section{Заключение}
 

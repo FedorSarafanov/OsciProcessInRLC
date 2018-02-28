@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.27)  28 FEB 2018 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.27)  28 FEB 2018 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1104,43 +1104,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <plot/1c.pdf, id=80, pagebox=cropbox, 335.87381pt x 274.23656pt>
 File: plot/1c.pdf Graphic file (type pdf)
 <use plot/1c.pdf>
-Package pdftex.def Info: plot/1c.pdf  used on input line 193. on input line 193
+Package pdftex.def Info: plot/1c.pdf  used on input line 213. on input line 213
 .
 Package pdftex.def Info: Requested size: 335.87297pt x 274.23589pt on input lin
-e 193.
+e 213.
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 200.
+(amsmath)                 on input line 220.
 
 [7 <./plot/1c.pdf>]
 <plot/1e.pdf, id=100, pagebox=cropbox, 536.9962pt x 182.39543pt>
 File: plot/1e.pdf Graphic file (type pdf)
 <use plot/1e.pdf>
-Package pdftex.def Info: plot/1e.pdf  used on input line 222. on input line 222
+Package pdftex.def Info: plot/1e.pdf  used on input line 242. on input line 242
 .
 Package pdftex.def Info: Requested size: 536.99487pt x 182.39497pt on input lin
-e 222.
+e 242.
 
-Overfull \hbox (53.298pt too wide) in paragraph at lines 222--223
+Overfull \hbox (53.298pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
 <plot/r2400.pdf, id=101, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot/r2400.pdf Graphic file (type pdf)
 <use plot/r2400.pdf>
-Package pdftex.def Info: plot/r2400.pdf  used on input line 231. on input line 
-231.
+Package pdftex.def Info: plot/r2400.pdf  used on input line 251. on input line 
+251.
 Package pdftex.def Info: Requested size: 415.9796pt x 312.00238pt on input line
- 231.
+ 251.
 <plot/r100.pdf, id=102, pagebox=cropbox, 462.52798pt x 346.89601pt>
 File: plot/r100.pdf Graphic file (type pdf)
 <use plot/r100.pdf>
-Package pdftex.def Info: plot/r100.pdf  used on input line 237. on input line 2
-37.
+Package pdftex.def Info: plot/r100.pdf  used on input line 257. on input line 2
+57.
 Package pdftex.def Info: Requested size: 415.9796pt x 312.00238pt on input line
- 237.
+ 257.
 [8 <./plot/1e.pdf> <./plot/r2400.pdf>] [9 <./plot/r100.pdf>] [10] (./rlc.aux) )
  
 Here is how much of TeX's memory you used:
@@ -1169,7 +1169,7 @@ mf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
 super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.
 pfb>
-Output written on rlc.pdf (11 pages, 627895 bytes).
+Output written on rlc.pdf (11 pages, 629145 bytes).
 PDF statistics:
  257 PDF objects out of 1000 (max. 8388607)
  151 compressed objects within 2 object streams
